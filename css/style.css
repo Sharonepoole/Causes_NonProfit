@@ -1,0 +1,59 @@
+*{
+	font-family:'helvetica';
+	color:#555;
+	box-sizing: border-box;
+	/* this is a comment */
+}
+
+body{
+	padding:60px;
+	background: #ffffff ;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center 120%;
+	background-attachment: fixed;
+}
+
+h2 {
+	color:#000000;
+}
+
+nav .glyphicon-tint:before{
+    font-size: 30px;
+    color:#006ebf;
+}
+
+
+#subhead, h6, p{color:#000000;}
+
+#makeblue{
+	color:#00f;
+}
+
+.group1{ color:#f00; }
+
+li.group1{
+	color:#000;
+	font-weight:bold;
+	font-size:50px;
+}
+
+div p{
+	color:black;
+}
+
+#poppa {
+	font-size:30px;
+}
+
+#poppa li{
+	color:#000;
+}
+
+#poppa > ul > li > ul > li{
+	color:#f00;
+}
+
+.group1 + h5{
+	font-size:30px;
+}
