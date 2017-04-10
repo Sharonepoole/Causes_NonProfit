@@ -1,22 +1,19 @@
-*{
-	font-family:'helvetica';
-	color:#555;
-	box-sizing: border-box;
-	/* this is a comment */
+@font-face {
+	font-family: 'body';
+	src: url('../fonts/MetaProBook.ttf');
+	font-weight: normal;
+	font-style: normal;
 }
 
-body{
-	padding:60px;
-	background: #ffffff ;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center 120%;
-	background-attachment: fixed;
+@font-face {
+	font-family: 'bodybold';
+	src: url('../fonts/MetaProBold.ttf');
+	font-weight: bold;
+	font-style: normal;
 }
 
-h2 {
-	color:#000000;
-}
+*{font-family: 'body';}
+h1, h2, b{font-family:'bodybold';}
 
 nav .glyphicon-tint:before{
     font-size: 30px;
@@ -24,36 +21,93 @@ nav .glyphicon-tint:before{
 }
 
 
-#subhead, h6, p{color:#000000;}
-
-#makeblue{
-	color:#00f;
+div.water {
+    background-color: #529ef7;
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 20px;
 }
 
-.group1{ color:#f00; }
-
-li.group1{
-	color:#000;
-	font-weight:bold;
-	font-size:50px;
+.carouselslide {
+    width= 1212px;
+    height= 500px;  
 }
 
-div p{
-	color:black;
+.classroom img {
+    width= 300px;
+    height=230px;
+    
 }
 
-#poppa {
-	font-size:30px;
+.floatleft {
+    float: left
 }
 
-#poppa li{
-	color:#000;
+.advocate img {
+    width=250px;
+    height=300px;
+     
 }
 
-#poppa > ul > li > ul > li{
-	color:#f00;
+
+
+    .fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
 }
 
-.group1 + h5{
-	font-size:30px;
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+
+/*Custom Fonts*/
+
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 14px;
 }
